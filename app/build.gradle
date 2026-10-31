@@ -5,11 +5,22 @@ plugins {
 android {
     namespace 'com.example.phonetradingagent'
     compileSdk 35
+
     defaultConfig {
         applicationId 'com.example.phonetradingagent'
         minSdk 26
         targetSdk 35
         versionCode 1
         versionName '0.1.0'
+    }
+
+    // Keep Java and Kotlin bytecode targets aligned. Without this, Gradle's
+    // default Java 8 target conflicts with Kotlin's Java 17 target.
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
     }
 }
