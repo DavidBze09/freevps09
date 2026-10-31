@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Phone Trading Agent</string>
+    <string name="accessibility_description">Allows the agent to inspect supported MT5 screen controls after you explicitly enable the service. It does not place trades in this starter build.</string>
+</resources>
