@@ -7,11 +7,11 @@ android {
     compileSdk 35
 
     defaultConfig {
-        applicationId 'com.example.phonetradingagent'
-        minSdk 26
-        targetSdk 35
-        versionCode 1
-        versionName '0.1.0'
+        applicationId 'com.example.phonetradingagent.fresh'
+        minSdk 23
+        targetSdk 32
+        versionCode 2
+        versionName '0.2.0'
     }
 
     // Keep Java and Kotlin bytecode targets aligned. Without this, Gradle's
